@@ -2081,7 +2081,7 @@ export default function App() {
       <div style={{ maxWidth: 480, margin: "0 auto 14px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
           <div style={{ fontSize: 10, letterSpacing: 4, color: "#7c3aed", textTransform: "uppercase", marginBottom: 1 }}>Body tracker</div>
-          <div style={{ fontSize: 26, fontWeight: 900, letterSpacing: -1 }}>DEFINICIÓN</div>
+          <div style={{ fontSize: 26, fontWeight: 900, letterSpacing: -1 }}>AGÓN</div>
         </div>
         <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
           <button onClick={handleExport} title="Exportar datos" style={{ background: "#111120", border: "1px solid #1e1e2e", borderRadius: 8, width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: 15 }}>⬇️</button>
