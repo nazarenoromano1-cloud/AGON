@@ -53,7 +53,7 @@ function getCategoryStreak(allData, checkFn) {
 
 // ── API ───────────────────────────────────────────────────────────
 
-const GEMINI_API_KEY = "TU_API_KEY_AQUI";
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_KEY || "";
 const GEMINI_MODEL = "gemini-2.0-flash";
 // Parsea valores numéricos que pueden ser rangos: "8-12", "8 a 12", "8/12" → promedio
 function parseRange(val) {
