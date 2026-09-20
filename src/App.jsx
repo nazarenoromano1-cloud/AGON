@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
-
+ 
 const STORAGE_KEY = "definicion-v6";
 const SETTINGS_KEY = "definicion-settings-v6";
 const ROUTINES_KEY = "definicion-routines-v6";
